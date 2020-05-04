@@ -1,0 +1,31 @@
+.title {
+  color: #39AAAD;
+  text-align: center;
+}
+
+.name{
+  text-align: center;
+  text-decoration: underline;
+}
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 10px solid #39AAAD;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
