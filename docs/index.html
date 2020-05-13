@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="curriculo.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="title">MiniCurrículo</h1>
-
-  <img src="https://scontent-gig2-1.xx.fbcdn.net/v/t1.0-9/s960x960/61287064_1981706391935831_8154823601409753088_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=JkNZ4ObE-0YAX-HdZNY&_nc_ht=scontent-gig2-1.xx&_nc_tp=7&oh=9698a83f986cfd9dbbbc84da6a12452e&oe=5ECD8241" alt="It's me" class="center" height=400 width=400>
-
-  <h1 class="name"><b> Dâmaso Júnio Pereira Brasileo </b></h1>
-  <h3 class="name">20 anos - Engenharia de Software - Universidade de Brasília - 7º Semestre</h3>
-
-  <div class="grid-container">
-    <div class="grid-item">
-      <h3>Séries favoritas</h3>
-      <ul>
-        <li>Friends</li>
-        <li>How I met your Mother</li>
-        <li>Sex Education</li>
-      </ul>
+  <section class="main_screen">
+    <canvas id="connect"></canvas>
+  </section>
+  <section class="grid-container">
+    <section class="grid-item">
+        <img src="https://scontent-gig2-1.xx.fbcdn.net/v/t1.0-9/s960x960/61287064_1981706391935831_8154823601409753088_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=JkNZ4ObE-0YAX-HdZNY&_nc_ht=scontent-gig2-1.xx&_nc_tp=7&oh=9698a83f986cfd9dbbbc84da6a12452e&oe=5ECD8241" alt="It's me">
+    </section>
+    <section class="grid-item">
+      <h1><b> Dâmaso Júnio Pereira Brasileo </b></h1>
+      <h3>20 anos - Engenharia de Software - Universidade de Brasília - 7º Semestre</h3>
+      <div class="codepen-container">
+        <div id="icetab-container">
+    	     <div class="icetab current-tab">Séries</div><div class="icetab">Animes</div><div class="icetab">Jogos</div>
+        </div>
+    <div id="icetab-content">
+    	<div class="tabcontent tab-active">Friends<br>How I met your mother<br>Sex Education</div>
+        <div class="tabcontent"><a href="https://onepieceex.net/" target="__blank">One Piece</a><br>Naruto<br>Fairy Tail</div>
+         <div class="tabcontent">Tales Of Pirates<br>League of Legends<br>Cyber Hunter</div>
     </div>
-    <div class="grid-item">
-      <h3>Animes favoritos</h3>
-      <ul>
-        <li><a href="https://onepieceex.net/" target="__blank">One Piece</a></li>
-        <li>Naruto</li>
-        <li>Fairy Tail</li>
-        <li>Toriko</li>
-      </ul>
-    </div>
-    <div class="grid-item">
-      <h3>Jogos favoritos</h3>
-      <ul>
-        <li>Tales of Pirates</li>
-        <li>League of Legends</li>
-        <li>Cyber Hunter</li>
-        <li>Chocolatier</li>
-      </ul>
-    </div>
-  </div>
+    </section>
+
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="tabs.js"></script>
 </body>
 </html>
